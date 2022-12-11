@@ -2,12 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** made by Aphran with help of some friends about the term 
- * srand and RAND MAX
- * the above lines are the predeuned moudules that we are going
- * to use as sources in our code*/
-
-int main(void)
+ int main()
 {
 	int n;
 
