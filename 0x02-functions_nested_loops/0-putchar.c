@@ -1,19 +1,17 @@
-#include"main.h"
-
+#include "holberton.h"
 /**
- * main - Prints "APHRAN" followed by a new line.
- *
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
  */
 int main(void)
 {
-	_putchar('A');
-	_putchar('P');
-	_putchar('P');
-	_putchar('H');
-	_putchar('R');
-	_putchar('A');
-	_putchar('N');
-	_putchar('\n');
+	char c[] = "Holberton";
+	int i;
 
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
