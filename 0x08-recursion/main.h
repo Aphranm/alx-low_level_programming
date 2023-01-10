@@ -12,4 +12,4 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int findsrc(char *s, char c, int i, int p);
 
-#endif
+#endif/* MAIN_H */
