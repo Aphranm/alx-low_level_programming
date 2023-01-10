@@ -7,6 +7,9 @@
 * -1 if x < 0.
 */
 int _pow_recursion(int x, int y)
+/*
+* the above word deines the function
+*/
 {
 if (y < 0)
 return (-1);
